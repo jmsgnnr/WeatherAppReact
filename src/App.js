@@ -38,7 +38,7 @@ function App() {
           })
             .then((res) => res.json())
             .then((result) => {
-              setPhoto(result.results[4].urls.regular);
+              setPhoto(result.results[3].urls.regular);
               console.log(result);
               setQuery("");
             });
