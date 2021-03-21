@@ -57,26 +57,36 @@ input{
 .initPage{
   display: flex;
   flex-direction: column;
-  background: lemonchiffon;
   padding: 30px;
   text-align: center;
   flex-direction: center;
   box-shadow: inset 1px 1px 10px 1px black ;
-  border: inset 2px rgb(255, 230, 230);
   font-family: 'DotGothic16', bold, sans-serif;
   font-size: 10px;
 }
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
 li{
-  list-style: square;
-  justify-content: start;
-  text-align: start;
-  max-width: fit-content;
+  display: flex;
+  background: whitesmoke;
   font-size: 20px;
   color: rgb(0, 0, 0);
+  border: 2px solid black;
+  min-width: 50vh;
+  box-shadow: inset 1px 1px 10px 1px black, 1px 1px 5px 1px white;
   /* -webkit-text-stroke: .7px rgb(255, 255, 255); */
 }
+
 .locationbox{
-  font-size: 40px;
+  justify-content: center;
+  text-align: center;
+  padding-left: 21%;
+  /* font-size: 40px; */
 }
 p{
   display: flex;
