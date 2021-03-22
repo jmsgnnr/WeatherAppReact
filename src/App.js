@@ -38,7 +38,7 @@ function App() {
           })
             .then((res) => res.json())
             .then((result) => {
-              setPhoto(result.results[3].urls.regular);
+              setPhoto(result.results[2].urls.regular);
               console.log(result);
               setQuery("");
             });
@@ -109,8 +109,9 @@ function App() {
               </ul>
             ) : (
               <ul className="initPage">
-                <li>Enter City and State to view current weather!</li>
-                <li>Try searching a city in another country</li>
+                <li>Enter (City, state) to view current weather!</li>
+                <li>Make sure to seperate with comma!</li>
+                <li>This app was created using openweather.api</li>
                 </ul>
             )}
           </form>
